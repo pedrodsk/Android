@@ -1,0 +1,124 @@
+<!DOCTYPE YACodeBlocks SYSTEM "support/save_format.dtd">
+<YACodeBlocks ya-version="75" lang-version="17">
+<Pages><Page page-name=" " page-color="237 245 211" page-width="1295" page-height="2345" page-drawer="My Definitions" >
+<PageBlocks>
+<Block id="1753" genus-name="if" >
+<Location><X>112</X><Y>230</Y></Location>
+<Label>if</Label>
+<BeforeBlockId>785</BeforeBlockId>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="test" position-type="single" con-block-id="1755" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="then-do" is-indented="yes" position-type="single" con-block-id="1930" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1930" genus-name="open-another-screen" >
+<Location><X>164</X><Y>266</Y></Location>
+<Label>open another screen</Label>
+<BeforeBlockId>1753</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="screenName" position-type="single" con-block-id="1932" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1932" genus-name="text" >
+<Location><X>400</X><Y>269</Y></Location>
+<Label>Inicial</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1930" ></BlockConnector></Plug>
+</Block>
+<Block id="1755" genus-name="true" >
+<Location><X>186</X><Y>233</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1753" ></BlockConnector></Plug>
+</Block>
+<Block id="785" genus-name="Button-Click" >
+<Location><X>84</X><Y>197</Y></Location>
+<Label>Bplay.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1753" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1915" genus-name="def" >
+<Collapsed/>
+<Location><X>10</X><Y>479</Y></Location>
+<Deactivated/>
+<Label>marcador</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="as" position-type="single" con-block-id="1923" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1923" genus-name="number" >
+<Location><X>142</X><Y>479</Y></Location>
+<Label>0</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1915" ></BlockConnector></Plug>
+</Block>
+<Block id="1925" genus-name="define-void" >
+<Collapsed/>
+<Location><X>12</X><Y>546</Y></Location>
+<Deactivated/>
+<Label>Bvoltar</Label>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="arg" is-expandable="yes" position-type="single" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1029" genus-name="def" >
+<Collapsed/>
+<Location><X>541</X><Y>117</Y></Location>
+<Label>Lista</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="as" position-type="single" con-block-id="1037" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1037" genus-name="make-list" >
+<Location><X>645</X><Y>117</Y></Location>
+<Label>make a list</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1029" ></BlockConnector></Plug>
+<Sockets num-sockets="4" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="item" is-expandable="yes" is-indented="yes" position-type="single" con-block-id="1039" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="item" is-expandable="yes" is-indented="yes" position-type="single" con-block-id="1041" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="item" is-expandable="yes" is-indented="yes" position-type="single" con-block-id="1043" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="item" is-expandable="yes" is-indented="yes" position-type="single" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1043" genus-name="text" >
+<Location><X>693</X><Y>198</Y></Location>
+<Label>Dreher.jpg</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1037" ></BlockConnector></Plug>
+</Block>
+<Block id="1041" genus-name="text" >
+<Location><X>693</X><Y>170</Y></Location>
+<Label>pitu.jpeg</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1037" ></BlockConnector></Plug>
+</Block>
+<Block id="1039" genus-name="text" >
+<Location><X>693</X><Y>142</Y></Location>
+<Label>gela.png</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1037" ></BlockConnector></Plug>
+</Block>
+<Block id="1672" genus-name="def" >
+<Collapsed/>
+<Location><X>502</X><Y>52</Y></Location>
+<Label>Lista2</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="as" position-type="single" con-block-id="1680" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1680" genus-name="make-list" >
+<Location><X>612</X><Y>52</Y></Location>
+<Label>make a list</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1672" ></BlockConnector></Plug>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="item" is-expandable="yes" is-indented="yes" position-type="single" ></BlockConnector>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+
+</Pages><YoungAndroidMaps><YoungAndroidUuidMap>
+<YoungAndroidUuidEntry uuid="0" component-id="Inicial" component-genus="Form" component-version="0" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="425821810" component-id="HorizontalArrangement1" component-genus="HorizontalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="87013250" component-id="Label1" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="759624621" component-id="HorizontalArrangement2" component-genus="HorizontalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="616419752" component-id="Bplay" component-genus="Button" component-version="5" ></YoungAndroidUuidEntry>
+</YoungAndroidUuidMap>
+</YoungAndroidMaps>
+</YACodeBlocks>
